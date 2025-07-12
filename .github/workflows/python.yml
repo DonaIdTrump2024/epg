@@ -3,7 +3,7 @@ name: Update M3U and EPG File
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 5,7,10,13,16 * * *'
+    - cron: '0 5,10,13,16 * * *'
 
 jobs:
   update_m3u:
